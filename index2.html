@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="menu">
+      <h3>Интерьер</h3>
+      <div class="menuRight">
+        <p>Каталог</p>
+        <p>Корзина</p>
+      </div>
+    </div>
+    <div class="numberOfGoods">
+      <div>Товар</div>
+    </div>
+    <div class="basket">
+      <ul id="bagList"></ul>
+      <form class="form">
+        <strong>Оформление заказа</strong>
+        <label for="">
+          <input type="text" id="fullName" placeholder="Имя Фамилия"/>
+        </label>
+        <label for="">
+          <input type="tel" id="phone" placeholder="+ 7 904 000 80 80"/>
+        </label>
+        <label for="">
+          <input type="text" id="address" placeholder="Адрес доставки"/>
+        </label>
+        <p>Итого:
+          <span id="totalPrice"></span>
+        </p>
+        <button class="confirm">Оформить заказ</button>
+      </form>
+    </div>
+    <div class="footer">
+      <button class="clear">Очистить корзину</button>
+      <a class="continue" href="http://127.0.0.1:5500/">Продолжить покупки</a>
+    </div>
+    <div class="modal">
+      <div class="modalContent"></div>
+    </div>
+    <script src="script2.js"></script>
+  </body>
+</html>
